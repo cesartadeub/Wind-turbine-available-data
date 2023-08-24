@@ -10,6 +10,32 @@ List of open source wind turbine SCADA data sets:
 <ins>Open Energy Data Initiative (OEDI)</ins>
 - https://data.openei.org/submissions/738
 
+<ins>Data Science for Wind Energy data sets</ins>
+- https://aml.engr.tamu.edu/book-dswe/dswe-datasets/
+
+<ins>Kelmarsh Wind Farm Data</ins>
+- https://zenodo.org/record/5841834#.YgpBQ_so-V7
+- 6 Turbines
+- multiple SCADA parameters (10min)
+- 5 years (2016-2021)
+- Located in the UK
+
+<ins>Penmanshiel Wind Farm Data</ins>
+- https://zenodo.org/record/5946808#.YgpAmvso-V5
+- 14 Turbines
+- multiple SCADA parameters (10min)
+- 5 years (2016-2021)
+- Located in the UK
+
+- <ins>Bearing Data Center: Seeded Fault Test Data</ins>
+- https://engineering.case.edu/bearingdatacenter
+- Laboratory bearings
+
+- <ins>A lot of datasets from NASA Prognostics Center of Excellence Data Set Repository</ins>
+- https://www.nasa.gov/content/prognostics-center-of-excellence-data-set-repository
+
+<ins> Mayble no available<ins>
+
 <ins>Engie "La Haute Borne" wind farm</ins>
 - https://opendata-renewables.engie.com/
 - 4 turbines
@@ -26,22 +52,9 @@ List of open source wind turbine SCADA data sets:
 - 2 years
 - remark: need to register & log-in to the platform
 
-
-<ins>Data Science for Wind Energy data sets</ins>
-- https://aml.engr.tamu.edu/book-dswe/dswe-datasets/
-
-
 <ins>Power Curve Working Group (PCWG) data sets</ins>
 - https://pcwg.org/
 - 3 data sets focused on power curve modelling
-
-<ins>Levenmouth Demonstration Turbine</ins>
-- https://pod.ore.catapult.org.uk/data-collection/ldt-turbine-scada-10min
-- Offshore research turbine
-- Standard (10min) and high-resolution (1Hz) SCADA data
-- SCADA log data
-- Met mast data
-- remark: not for free
 
 <ins>Winji Gearbox Failure Detection Challenge</ins>
 - https://www.wedowind.ch/blog/winji-register
@@ -56,20 +69,6 @@ List of open source wind turbine SCADA data sets:
 - Wind speed, wind direction, theoretical power curve, power output
 - 1 year (2018)
 - Located in Turkey
-
-<ins>Kelmarsh Wind Farm Data</ins>
-- https://zenodo.org/record/5841834#.YgpBQ_so-V7
-- 6 Turbines
-- multiple SCADA parameters (10min)
-- 5 years (2016-2021)
-- Located in the UK
-
-<ins>Penmanshiel Wind Farm Data</ins>
-- https://zenodo.org/record/5946808#.YgpAmvso-V5
-- 14 Turbines
-- multiple SCADA parameters (10min)
-- 5 years (2016-2021)
-- Located in the UK
 
 <ins>Ørsted Anholt Offshore Wind Farm</ins>
 - https://orsted.com/en/our-business/offshore-wind/offshore-operational-data
