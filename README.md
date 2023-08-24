@@ -1,5 +1,14 @@
-# Wind Turbine availale datasets
+# Wind Turbine available datasets
 List of open source wind turbine SCADA data sets:
+
+<ins>Canadian Wind Turbine Database</ins>
+- https://open.canada.ca/data/en/dataset/79fdad93-9025-49ad-ba16-c26d718cc070
+
+<ins>Wind Turbine Blades Fault Diagnosis based on Vibration Dataset Analysis</ins>
+- https://data.mendeley.com/datasets/5d7vbdp8f7/3
+
+<ins>Open Energy Data Initiative (OEDI)</ins>
+https://data.openei.org/submissions/738
 
 <ins>Engie "La Haute Borne" wind farm</ins>
 - https://opendata-renewables.engie.com/
@@ -77,12 +86,3 @@ List of open source wind turbine SCADA data sets:
 - 2 years
 - Located in the UK (Offshore)
 - remark: application required
-
-<ins>Canadian Wind Turbine Database</ins>
-- https://open.canada.ca/data/en/dataset/79fdad93-9025-49ad-ba16-c26d718cc070
-
-<ins>Wind Turbine Blades Fault Diagnosis based on Vibration Dataset Analysis</ins>
-- https://data.mendeley.com/datasets/5d7vbdp8f7/3
-
-<ins>Open Energy Data Initiative (OEDI)</ins>
-https://data.openei.org/submissions/738
