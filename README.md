@@ -76,4 +76,7 @@ List of open source wind turbine SCADA data sets:
 - multiple SCADA parameters (nacelle wind speed, electrical power, rotor speed, yaw position and pitch angle) (10min)
 - 2 years
 - Located in the UK (Offshore)
-- remark: application required 
+- remark: application required
+
+<ins>Canadian Wind Turbine Database</ins>
+- https://open.canada.ca/data/en/dataset/79fdad93-9025-49ad-ba16-c26d718cc070
