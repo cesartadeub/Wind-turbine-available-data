@@ -1,5 +1,5 @@
 # Wind Turbine available datasets
-List of open source wind turbine SCADA data sets:
+List of open source wind turbine SCADA datasets:
 
 <ins>Canadian Wind Turbine Database</ins>
 - https://open.canada.ca/data/en/dataset/79fdad93-9025-49ad-ba16-c26d718cc070
