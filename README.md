@@ -1,4 +1,4 @@
-# Wind Turbine available datasets
+# Wind turbine available datasets
 List of open source wind turbine SCADA datasets:
 
 <ins>Canadian Wind Turbine Database</ins>
@@ -42,7 +42,7 @@ List of open source wind turbine SCADA datasets:
 - 5 years (2016-2021)
 - Located in the UK
 
-## Maybe not available
+## Other resources not available
 
 - Engie "La Haute Borne" wind farm
 - EDP open data platform
