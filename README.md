@@ -13,6 +13,13 @@ List of open source wind turbine SCADA data sets:
 <ins>Data Science for Wind Energy data sets</ins>
 - https://aml.engr.tamu.edu/book-dswe/dswe-datasets/
 
+<ins>Bearing Data Center: Seeded Fault Test Data</ins>
+- https://engineering.case.edu/bearingdatacenter
+- Laboratory bearings
+
+<ins>A lot of datasets from NASA Prognostics Center of Excellence Data Set Repository</ins>
+- https://www.nasa.gov/content/prognostics-center-of-excellence-data-set-repository
+
 <ins>Kelmarsh Wind Farm Data</ins>
 - https://zenodo.org/record/5841834#.YgpBQ_so-V7
 - 6 Turbines
@@ -27,13 +34,6 @@ List of open source wind turbine SCADA data sets:
 - 5 years (2016-2021)
 - Located in the UK
 
-- <ins>Bearing Data Center: Seeded Fault Test Data</ins>
-- https://engineering.case.edu/bearingdatacenter
-- Laboratory bearings
-
-- <ins>A lot of datasets from NASA Prognostics Center of Excellence Data Set Repository</ins>
-- https://www.nasa.gov/content/prognostics-center-of-excellence-data-set-repository
-
 ## Mayble not available
 
 <ins>Engie "La Haute Borne" wind farm</ins>
@@ -41,7 +41,6 @@ List of open source wind turbine SCADA data sets:
 - 4 turbines
 - ~80 SCADA variables
 - 8 years (2013 to 2020)
-
 
 <ins>EDP open data platform</ins>
 - https://opendata.edp.com/pages/homepage/
