@@ -13,7 +13,7 @@ List of open source wind turbine SCADA datasets:
 <ins>Data Science for Wind Energy data sets</ins>
 - https://aml.engr.tamu.edu/book-dswe/dswe-datasets/
 
-<ins>Bearing Data Center: Seeded Fault Test Data</ins>
+<ins>Case Western Reserve - Bearing Data Center: Seeded Fault Test Data</ins>
 - https://engineering.case.edu/bearingdatacenter
 - Laboratory bearings
 
