@@ -32,7 +32,7 @@ List of open source wind turbine SCADA datasets:
 - https://zenodo.org/record/8252025
 - 6 Turbines
 - multiple SCADA parameters (10min)
-- 5 years (2016-2021)
+- 7 years (2016-2022)
 - Located in the UK
 
 <ins>Penmanshiel Wind Farm Data</ins>
