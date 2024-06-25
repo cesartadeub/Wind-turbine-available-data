@@ -1,85 +1,51 @@
-# Wind Turbine Available Datasets
+# Wind turbine available datasets
+List of open source wind turbine SCADA datasets:
 
-## Table of Contents
-- [Datasets](#datasets)
-  - [Kelmarsh Wind Farm Data](#kelmarsh-wind-farm-data)
-  - [Penmanshiel Wind Farm Data](#penmanshiel-wind-farm-data)
-  - [Wind Turbine SCADA data on Kaggle](#wind-turbine-scada-data-on-kaggle)
-  - [Wind Turbine for Anomaly Detection](#wind-turbine-for-anomaly-detection)
-  - [Norrekaer Enge Windfarm](#norrekaer-enge-windfarm)
-  - [Canadian Wind Turbine Database](#canadian-wind-turbine-database)
-  - [Wind Turbine Blades Fault Diagnosis](#wind-turbine-blades-fault-diagnosis)
-  - [Open Energy Data Initiative (OEDI)](#open-energy-data-initiative-oedi)
-  - [Data Science for Wind Energy Data Sets](#data-science-for-wind-energy-data-sets)
-  - [NASA Prognostics Center of Excellence](#nasa-prognostics-center-of-excellence)
-  - [Winji Gearbox Failure Detection Challenge](#winji-gearbox-failure-detection-challenge)
-  - [Ørsted Anholt Offshore Wind Farm](#ørsted-anholt-offshore-wind-farm)
-  - [Case Western Reserve - Bearing Data Center](#case-western-reserve---bearing-data-center)
-- [Other Resources Not Available](#other-resources-not-available)
-- [Contributing](#contributing)
-- [License](#license)
+[<ins>Kelmarsh Wind Farm Data</ins>](https://zenodo.org/record/8252025)
+- 6 Turbines
+- multiple SCADA parameters (10min)
+- 7 years (2016-2022)
+- Located in the UK
 
-## Datasets
+[<ins>Penmanshiel Wind Farm Data</ins>](https://zenodo.org/record/8253010)
+- 14 Turbines
+- multiple SCADA parameters (10min)
+- 7 years (2016-2022)
+- Located in the UK
 
-### [Kelmarsh Wind Farm Data](https://zenodo.org/record/8252025)
-- **Turbines:** 6
-- **Parameters:** Multiple SCADA parameters (10min intervals)
-- **Duration:** 7 years (2016-2022)
-- **Location:** UK
+[<ins>Wind Turbine SCADA data on Kaggle](https://www.kaggle.com/datasets/pythonafroz/wind-turbine-scada-data)
+- A 6kW wind turbine
+- 15 SCADA channels: otor speed in RPM, Generator speed in RPM, Stator temperature in C, Windspeed in m/s, Converter active power in kW, Wind direction w.r.t. nacelle measured in degrees, System supply voltage 24V , Pitch angle in degrees, Turbine status.
 
-### [Penmanshiel Wind Farm Data](https://zenodo.org/record/8253010)
-- **Turbines:** 14
-- **Parameters:** Multiple SCADA parameters (10min intervals)
-- **Duration:** 7 years (2016-2022)
-- **Location:** UK
+[<ins>Wind turbine for anomaly detection](https://zenodo.org/records/10958775)
+- Wind farm dataset
+- 86 years of data
+  
+[<ins>Norrekaer Enge windfarm](https://data.dtu.dk/articles/dataset/SCADA_data_from_Norre_m2_wind_farm/19076756)
+- 42 turbines in Norrekaer Enge windfarm
 
-### [Wind Turbine SCADA data on Kaggle](https://www.kaggle.com/datasets/pythonafroz/wind-turbine-scada-data)
-- **Turbine Capacity:** 6kW
-- **Channels:**
-  - Motor speed (RPM)
-  - Generator speed (RPM)
-  - Stator temperature (°C)
-  - Windspeed (m/s)
-  - Converter active power (kW)
-  - Wind direction relative to nacelle (°)
-  - System supply voltage (24V)
-  - Pitch angle (°)
-  - Turbine status
+[<ins>Canadian Wind Turbine Database</ins>](https://open.canada.ca/data/en/dataset/79fdad93-9025-49ad-ba16-c26d718cc070)
 
-### [Wind Turbine for Anomaly Detection](https://zenodo.org/records/10958775)
-- **Type:** Wind farm dataset
-- **Duration:** 86 years of data
+[<ins>Wind Turbine Blades Fault Diagnosis based on Vibration Dataset Analysis</ins>](https://data.mendeley.com/datasets/5d7vbdp8f7/3)
 
-### [Norrekaer Enge Windfarm](https://data.dtu.dk/articles/dataset/SCADA_data_from_Norre_m2_wind_farm/19076756)
-- **Turbines:** 42
+[<ins>Open Energy Data Initiative (OEDI)</ins>](https://data.openei.org/submissions/738)
 
-### [Canadian Wind Turbine Database](https://open.canada.ca/data/en/dataset/79fdad93-9025-49ad-ba16-c26d718cc070)
+[<ins>Data Science for Wind Energy data sets</ins>](https://aml.engr.tamu.edu/book-dswe/dswe-datasets/)
 
-### [Wind Turbine Blades Fault Diagnosis based on Vibration Dataset Analysis](https://data.mendeley.com/datasets/5d7vbdp8f7/3)
+[<ins>A lot of datasets from NASA Prognostics Center of Excellence Data Set Repository</ins>](https://www.nasa.gov/content/prognostics-center-of-excellence-data-set-repository)
 
-### [Open Energy Data Initiative (OEDI)](https://data.openei.org/submissions/738)
+[<ins>Winji Gearbox Failure Detection Challenge</ins>](https://www.wedowind.ch/spaces/winji-challenges-space)
+- You must sent an e-mail asking for dataset
 
-### [Data Science for Wind Energy Data Sets](https://aml.engr.tamu.edu/book-dswe/dswe-datasets/)
+[<ins>Ørsted Anholt Offshore Wind Farm</ins>](https://orsted.com/en/what-we-do/renewable-energy-solutions/offshore-wind/offshore-wind-data)
+- You must sent an e-mail asking for dataset
 
-### [NASA Prognostics Center of Excellence Data Set Repository](https://www.nasa.gov/content/prognostics-center-of-excellence-data-set-repository)
+[<ins>Case Western Reserve - Bearing Data Center: Seeded Fault Test Data</ins>](https://engineering.case.edu/bearingdatacenter)
+- Laboratory bearings
 
-### [Winji Gearbox Failure Detection Challenge](https://www.wedowind.ch/spaces/winji-challenges-space)
-- **Note:** You must send an email requesting access to the dataset.
+## Other resources not available
 
-### [Ørsted Anholt Offshore Wind Farm](https://orsted.com/en/what-we-do/renewable-energy-solutions/offshore-wind/offshore-wind-data)
-- **Note:** You must send an email requesting access to the dataset.
-
-### [Case Western Reserve - Bearing Data Center: Seeded Fault Test Data](https://engineering.case.edu/bearingdatacenter)
-- **Type:** Laboratory bearings
-
-## Other Resources Not Available
 - Engie "La Haute Borne" wind farm
 - EDP open data platform
 - Power Curve Working Group (PCWG) data sets
 - Kaggle: Wind Turbine Scada Dataset
-
-## Contributing
-Contributions are welcome! If you have additional datasets or improvements to this repository, please feel free to submit a pull request or open an issue.
-
-## License
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
