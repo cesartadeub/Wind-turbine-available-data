@@ -13,6 +13,20 @@ List of open source wind turbine SCADA datasets:
 - 7 years (2016-2022)
 - Located in the UK
 
+[<ins>Wind Turbine SCADA data on Kaggle](https://www.kaggle.com/datasets/pythonafroz/wind-turbine-scada-data)
+- A 6kW wind turbine
+- 15 SCADA channels: otor speed in RPM, Generator speed in RPM, Stator temperature in C, Windspeed in m/s, Converter active power in kW, Wind direction w.r.t. nacelle measured in degrees, System supply voltage 24V , Pitch angle in degrees, Turbine status.
+
+[<ins>Wind turbine for anomaly detection](https://zenodo.org/records/10958775)
+- Wind farm dataset
+- 86 years of data
+
+[<ins>Wind turbine for anomaly detection](https://zenodo.org/records/10958775)
+- Wind farm dataset
+- 86 years of data
+[<ins>](https://data.dtu.dk/articles/dataset/SCADA_data_from_Norre_m2_wind_farm/19076756)
+- 42 turbines in Norrekaer Enge windfarm
+
 [<ins>Canadian Wind Turbine Database</ins>](https://open.canada.ca/data/en/dataset/79fdad93-9025-49ad-ba16-c26d718cc070)
 
 [<ins>Wind Turbine Blades Fault Diagnosis based on Vibration Dataset Analysis</ins>](https://data.mendeley.com/datasets/5d7vbdp8f7/3)
