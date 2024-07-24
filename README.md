@@ -19,10 +19,13 @@ List of open source wind turbine SCADA datasets:
 
 [<ins>Wind turbine for anomaly detection](https://zenodo.org/records/10958775)
 - Wind farm dataset
-- 86 years of data
+- 89 years of data
   
 [<ins>Norrekaer Enge windfarm](https://data.dtu.dk/articles/dataset/SCADA_data_from_Norre_m2_wind_farm/19076756)
 - 42 turbines in Norrekaer Enge windfarm
+
+[<ins>Research Wind Turbine SCADA and high frequency Structural Health Monitoring (SHM) data](https://zenodo.org/records/8229750)
+- Dataset for structural health monitoring, containing normal operation data and three different faults: aerodynamic imbalance in one blade, rotor icing and pitch drive system fault.
 
 [<ins>Canadian Wind Turbine Database</ins>](https://open.canada.ca/data/en/dataset/79fdad93-9025-49ad-ba16-c26d718cc070)
 
