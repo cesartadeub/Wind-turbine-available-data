@@ -20,6 +20,8 @@ List of open source wind turbine SCADA datasets:
 [<ins>Wind turbine for anomaly detection](https://zenodo.org/records/10958775)
 - Wind farm dataset
 - 89 years of data
+
+[<ins>Fuhrländer FL2500 2.5MW wind turbine dataset + pre-processing functions R MATLAB](https://github.com/alecuba16/fuhrlander)
   
 [<ins>Norrekaer Enge windfarm](https://data.dtu.dk/articles/dataset/SCADA_data_from_Norre_m2_wind_farm/19076756)
 - 42 turbines in Norrekaer Enge windfarm
