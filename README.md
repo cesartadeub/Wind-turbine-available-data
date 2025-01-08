@@ -56,4 +56,4 @@ List of open source wind turbine SCADA datasets:
 - Kaggle: Wind Turbine Scada Dataset
 
 ## Views
-![](https://komarev.com/ghpvc/?username=cesartadeub&color=blue)
+![Views](https://komarev.com/ghpvc/?username=cesartadeub&color=blue)
