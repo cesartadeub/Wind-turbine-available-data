@@ -55,5 +55,5 @@ List of open source wind turbine SCADA datasets:
 - Power Curve Working Group (PCWG) data sets
 - Kaggle: Wind Turbine Scada Dataset
 
-  ## Views
-![](http://profile-counter.glitch.me//cesartadeub/Wind-turbine-available-data/count.svg)
+## Views
+![Visitor Count](http://profile-counter.glitch.me//cesartadeub/Wind-turbine-available-data/count.svg)
