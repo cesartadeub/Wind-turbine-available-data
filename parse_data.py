@@ -4,6 +4,7 @@ parse_data.py - Parse wind turbine data files.
 
 This script reads CSV files containing wind turbine performance data
 and extracts relevant columns for analysis.
+# Iowa wind energy dataset compatibility added
 """
 
 import csv
@@ -18,6 +19,10 @@ def parse_csv(file_path):
             data.append(row)
     return data
 
+def filter_iowa_data(data, state_column='state'):
+    """Filter data to only include Iowa wind turbines."""
+    return [row for row in data if row.get(state_column) == 'IA']
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python parse_data.py <csv_file>")
@@ -27,6 +32,9 @@ def main():
     data = parse_csv(file_path)
     print(f"Parsed {len(data)} rows.")
     # TODO: Add more processing steps
+    # Example: filter for Iowa data
+    iowa_data = filter_iowa_data(data)
+    print(f"Iowa data rows: {len(iowa_data)}")
 
 if __name__ == "__main__":
     main()
