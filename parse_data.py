@@ -3,6 +3,15 @@
 This module provides utilities for reading, cleaning, and transforming
 wind turbine operational data into a standardized format suitable for
 analysis and visualization.
+
+Functions
+---------
+parse_csv : Parse a CSV file and return a list of row dictionaries.
+parse_json : Parse a JSON file and return the deserialized data.
+normalize_timestamp : Normalize a timestamp string to ISO 8601 format.
+clean_numeric : Convert a string value to a float, handling common data issues.
+extract_turbine_records : Extract and clean turbine records from a CSV data file.
+filter_iowa_data : Filter a DataFrame to include only Iowa (IA) state records.
 """
 
 import csv
@@ -10,6 +19,8 @@ import json
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Union
+
+import pandas as pd
 
 
 def parse_csv(filepath: Union[str, Path], encoding: str = "utf-8") -> List[Dict[str, str]]:
@@ -123,3 +134,36 @@ def extract_turbine_records(
         }
         records.append(record)
     return records
+
+
+def filter_iowa_data(df: pd.DataFrame) -> pd.DataFrame:
+    """Filter a wind turbine DataFrame to include only Iowa records.
+
+    This function filters the input DataFrame to retain only those rows
+    where the 'state' column has the value 'IA' (Iowa). It is designed
+    for use with USGS wind turbine datasets that include a 'state'
+    column using two-letter state abbreviations.
+
+    Args:
+        df: A pandas DataFrame that must contain a 'state' column with
+            two-letter US state abbreviations.
+
+    Returns:
+        A pandas DataFrame containing only the rows where
+        df['state'] == 'IA'. The returned DataFrame is a view (not a copy)
+        of the filtered rows from the original DataFrame.
+
+    Raises:
+        KeyError: If the 'state' column is not present in the DataFrame.
+
+    Example:
+        >>> import pandas as pd
+        >>> data = {'state': ['IA', 'TX', 'IA', 'CA'], 'capacity': [1.5, 2.0, 1.8, 3.0]}
+        >>> df = pd.DataFrame(data)
+        >>> iowa_df = filter_iowa_data(df)
+        >>> print(iowa_df)
+          state  capacity
+        0    IA       1.5
+        2    IA       1.8
+    """
+    return df[df['state'] == 'IA']
